@@ -6,12 +6,12 @@ Simple Chat App Using Socket.io
 ##Build web framework##
 * Setup a simple HTML webpage
 * Ensure Node.JS is installed
-* Create package.json file
-* npm-install --save expres@4.XX.X
-* create and run node index.js file
+* Create ```package.json``` file
+* ```npm-install --save expres@4.XX.X```
+* create and run ```node index.js``` file
 
 Running node index.js will make the http server listen on port 3000
-[Named Link](http://localhost:3000)
+[localhost:3000](http://localhost:3000)
 
 In this case, for the sake of simplicity this Chat sends the message to everyone, including the sender.
 On the client side when we capture a chat message event we’ll include it in the page. 
